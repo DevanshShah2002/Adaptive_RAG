@@ -1,0 +1,17 @@
+.git
+.github
+.gitignore
+.env
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.log
+*.ipynb_checkpoints
+
+*.docx
+*.pptx
+
+phase1/musique_ans_v1.0_train.jsonl
+phase3/phase3_results_all.json
