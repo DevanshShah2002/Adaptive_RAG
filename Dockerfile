@@ -10,7 +10,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-COPY phase3 ./phase3
+COPY . .
 
 WORKDIR /app/phase3
 
